@@ -32,7 +32,7 @@ public class CellularAutomataProject {
         System.out.println("******************************************");
         System.out.println("******************************************");
         System.out.println("******************************************");
-        game.showGrid();
+
         }
         
         
