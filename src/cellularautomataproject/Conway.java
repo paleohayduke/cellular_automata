@@ -83,7 +83,7 @@ public class Conway {
             }
         }
         boolean returnBool;
-        if(neighborCount==2||neighborCount==3&&grid[i][j]==true){
+        if(neighborCount==2&&grid[i][j]==true){
             returnBool=true;
         }
         else if(neighborCount==3&&grid[i][j]==false){
