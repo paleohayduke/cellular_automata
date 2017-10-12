@@ -103,10 +103,10 @@ public class Conway {
         for(int count =0; count<grid.length;count++){
             for(int count2 = 0; count2<grid.length;count2++){
                 if (grid[count][count2]==true){
-                    System.out.print("1 ");
+                    System.out.print("* ");
                 }
                 else
-                    System.out.print("0 ");
+                    System.out.print("  ");
             }
             System.out.println();
         }
